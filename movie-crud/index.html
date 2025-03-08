@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>My movies</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="features/TrendingMovies/trendingMovies.css" />
+    <title>My favorites movies</title>
+  </head>
+
+  <body>
     <main>
-        <h1>My Movies.com</h1>
-        <section id="add-movies-section" class="add-movies-section">
-           <h3> Mis Peliculas Favoritas</h3>
-            <button>
-                Agregar
-            </button>
-        </section>
-        <Section id="all-movies-section" class="all-movies-section">
-            <h3>Peliculas que te recomendamos</h3>
-        </Section>
+      <h1>MyFavorite List</h1>
+      <section id="add-movies-section" class="add-movies-section">
+        <div id="search-movies-section">
+          <h2>Películas que luego veré</h2>
+          <label for=""
+            >Buscar película
+            <input type="text" name="search-movie" />
+            <button>🔎</button>
+          </label>
+        </div>
+        <div>
+          <select name="option-movie" id="">
+            <option value="">Elige una película</option>
+          </select>
+        </div>
+      </section>
+      <section id="trending-movies-section" class="trending-movies-section">
+        <h2>Películas en Tendencia</h2>
+      </section>
     </main>
-</body>
-<script src="script.js" type="module"></script>
+  </body>
+  <script src="script.js" type="module"></script>
 </html>
