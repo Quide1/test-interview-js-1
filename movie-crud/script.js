@@ -1,3 +1,4 @@
-import { viewAllMovies } from "./interactivity/viewAllMovies.js"
-console.log('Hola desde la consola')
-await viewAllMovies()
+import {viewAllTrendingMovies} from "./features/TrendingMovies/trendingMovies.js"
+(async () => {
+    await viewAllTrendingMovies();
+  })();
