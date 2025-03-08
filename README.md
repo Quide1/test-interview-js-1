@@ -2,7 +2,7 @@
 
 ## ✨ **Objetivos de la Práctica**
 
-- [ ] **Consumir una API pública de películas** y mostrar la información en el DOM.
+- [x] **Consumir una API pública de películas** y mostrar la información en el DOM.
 - [ ] **Implementar un CRUD en el frontend** sin backend, manejando los datos con **JSON local**.
 - [ ] **Practicar eventos** como `click`, `input`, `submit`, y `DOMContentLoaded`.
 - [ ] **Manipular el DOM dinámicamente** (crear, eliminar, modificar elementos).
